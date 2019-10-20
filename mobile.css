@@ -1,0 +1,84 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 375px;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ p {
+     font-weight: bold;
+ }
+ .columns {
+    font-style: italic;
+    font-weight: normal;
+ }
+
+ .media {
+     text-align: left;
+     position: relative;
+     padding: 15px 0;
+    
+ }
+
+
+
+ .media img {
+    border-radius: 50%;
+    width: 100px; 
+    
+     
+   }
+ul {    
+    text-align: left;
+}
+li {
+    list-style: none;
+    padding: 10px 0;
+}
+li span {
+    font-weight: bold;
+}
+
+.education, .project {
+    font-weight: bold;
+    c
+}
+
+.swiper-container {
+   max-height: 50vh;
+   position: relative;
+   width: 100%;
+  
+}
+
+.swiper-container img {
+    width: 375px;
+    position: relative;
+}
+
+.swiper-container .dropdown {
+    text-align: left;    
+    
+}
+.swiper-slide {
+    text-align: left;    
+    
+}
+
+.buttons {
+    width: 30%;
+    float: right;
+    padding: 50px 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
